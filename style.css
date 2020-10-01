@@ -1,0 +1,30 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: sans-serif;
+   background-color: #f8f8f8;
+}
+
+h1 {
+   padding: 50px 30px;
+   text-align: center;
+   font-weight: bold;
+   font-size: 3em;
+   letter-spacing: 1.2px;
+   color: #303031;
+}
+
+.gallery {
+   display: grid;
+   grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
+   grid-column-gap: 20px;
+   grid-row-gap: 20px;
+}
+
+.gallery img {
+   width: 100%;
+}
